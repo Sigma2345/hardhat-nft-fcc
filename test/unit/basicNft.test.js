@@ -1,4 +1,3 @@
-const { ConsoleErrorListener } = require('antlr4/error/ErrorListener')
 const { assert, expect } = require('chai')
 const { deployments, ethers } = require('hardhat')
 const { developmentChains, networkConfig } = require('../../helper-hardhat-config')

@@ -1,4 +1,3 @@
-const { verifyTypedData } = require("@ethersproject/wallet")
 const { network } = require("hardhat")
 const { developmentChains, networkConfig } = require("../helper-hardhat-config")
 const { verify } = require('../utils/verify')

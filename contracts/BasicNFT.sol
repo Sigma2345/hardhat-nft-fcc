@@ -33,4 +33,10 @@ contract BasicNFT is ERC721{
         return s_tokenCounter ; 
     }
 
+    function HelloWorld() public pure returns(string memory){
+        return "Hello World" ; 
+
+        
+    }
+
 }

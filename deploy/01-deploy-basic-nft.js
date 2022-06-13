@@ -29,4 +29,4 @@ module.exports = async function ({
 }
 
 
-module.exports.tags = ["basicNft"]
+module.exports.tags = ["basicNft", "all", "main"]

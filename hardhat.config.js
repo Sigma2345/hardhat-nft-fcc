@@ -19,12 +19,12 @@ module.exports = {
       chainId: 31337,
 
     },
-    // "rinkeby": {
-    //   chainId: 4,
-    //   url: process.env.RINKEBY_RPC_URL, 
-    //   accounts: [process.env.PRIVATE_KEY],
-    //   blockConfirmations: 6
-    // }
+    "rinkeby": {
+      chainId: 4,
+      url: process.env.RINKEBY_RPC_URL, 
+      accounts: [process.env.PRIVATE_KEY],
+      blockConfirmations: 6
+    }
   },
   namedAccounts: {
     deployer: {
@@ -41,9 +41,9 @@ module.exports = {
     token: "ETH",
     outputFile: 'gas_report.txt'
   },
-  // etherscan: {
-  //    apiKey: process.env.ETHERSCAN_API_KEY,
-  // },
+  etherscan: {
+     apiKey: process.env.ETHERSCAN_API_KEY,
+  },
   mocha: {
     timeout: 300000, //timeout of max 300 seconds
   }

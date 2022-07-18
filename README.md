@@ -17,7 +17,7 @@ https://rinkeby.etherscan.io/address/0xa8Bb3D33490e9a64c3B8639ccEa97487DC5b076d#
 
 DynamicSvgNft
 ```link
-ttps://rinkeby.etherscan.io/address/0xDdB34D6bC362E98fA9521BA77878049e70285D4A#code
+https://rinkeby.etherscan.io/address/0xDdB34D6bC362E98fA9521BA77878049e70285D4A#code
 ```
 
 to check ipfs url query tokenCounter
